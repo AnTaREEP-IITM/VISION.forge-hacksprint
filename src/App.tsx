@@ -1,40 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { LandingPage } from './components/LandingPage';
-import { AuthenticationPage } from './components/Authentication/AuthenticationPage';
-import { UserFacilityPortal } from './components/Authentication/UserFacilityPortal';
-import { AdministrativePortal } from './components/Authentication/Administrative';
 
-// Patient Dashboard imports
-import { DashboardLayout } from './components/PatientDashboard/Layout/DashboardLayout';
-import { PatientDashboard } from './components/PatientDashboard/Dashboard';
-import { Appointments } from './components/PatientDashboard/Appointments';
-import { MedicalRecords } from './components/PatientDashboard/MedicalRecords';
-import { Prescriptions } from './components/PatientDashboard/Prescriptions';
-import { Vitals } from './components/PatientDashboard/Vitals';
-import { Messages } from './components/PatientDashboard/Messages';
-import { Settings } from './components/PatientDashboard/Settings';
 
-// Hospital Dashboard imports
-import { HospitalLayout } from './components/HospitalDashboard/Layout/HospitalLayout';
-import { HospitalDashboard } from './components/HospitalDashboard/Dashboard';
-import { BedManagement } from './components/HospitalDashboard/BedManagement';
-import { Staff } from './components/HospitalDashboard/Staff';
-import { Doctors } from './components/HospitalDashboard/Doctors';
-import { Patients } from './components/HospitalDashboard/Patients';
-import { Equipment } from './components/HospitalDashboard/Equipment';
-import { Schemes } from './components/HospitalDashboard/Schemes';
 
-// Doctor Dashboard imports
-import { DoctorLayout } from './components/DoctorDashboard/Layout/DoctorLayout';
 
-// State Admin imports
-import { StateAdminLayout } from './components/StateAdmin/Layout/StateAdminLayout';
-import { StateOverview } from './components/StateAdmin/Overview';
-import { HospitalManagement } from './components/StateAdmin/HospitalManagement';
-import { DistrictData } from './components/StateAdmin/DistrictData';
-import { ResourceAllocation } from './components/StateAdmin/ResourceAllocation';
-import { SchemeMonitoring } from './components/StateAdmin/SchemeMonitoring';
-import { Reports } from './components/StateAdmin/Reports';
 
 export default function App() {
   return (
