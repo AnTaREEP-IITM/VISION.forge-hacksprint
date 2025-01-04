@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { LandingPage } from './components/LandingPage';
-
+import { AuthenticationPage } from './components/Authentication/AuthenticationPage';
+import { UserFacilityPortal } from './components/Authentication/UserFacilityPortal';
 
 // Patient Dashboard imports
 import { DashboardLayout } from './components/PatientDashboard/Layout/DashboardLayout';
