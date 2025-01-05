@@ -25,6 +25,16 @@ import { Equipment } from './components/HospitalDashboard/Equipment';
 import { Schemes } from './components/HospitalDashboard/Schemes';
 
 
+// doctor imports
+import { DoctorLayout } from './components/docAdmin/Layout/docAdminLayout';
+import { DoctorOverview } from './components/docAdmin/Overview';
+import { doctorManagement } from './components/docAdmin/docManagement';
+import { DistrictData } from './components/docAdmin/DistrictData';
+import { ResourceAllocation } from './components/DocAdmin/docAllocation';
+import { DoctorMonitoring } from './components/DocAdmin/docMonitoring';
+import { Reports } from './components/DocAdmin/Reports';
+
+
 
 // State Admin imports
 import { StateAdminLayout } from './components/StateAdmin/Layout/StateAdminLayout';
